@@ -33,6 +33,7 @@ const SlideShow = () => {
         sliderImage={sliderImage}
         onclick={(activeIndex) => setActiveIndex(activeIndex)}
       />
+      <div className='boder-bottom'></div>
     </div>
   )
 }
