@@ -35,6 +35,7 @@
   height: 100%;
   position: absolute;
   object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-title,
@@ -123,4 +124,12 @@
 
 .play-pause {
   color: black;
+}
+
+.boder-bottom{
+  border-bottom: 2px solid #F0942B;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 42px;
+  margin-bottom: 42px;
 }

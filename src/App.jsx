@@ -1,13 +1,11 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Header from './layouts/Header/Header'
-import SlideShow from './layouts/Slides/SlideShow'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Home from './pages/Home/Home'
 
 function App() {
   return (
     <>
       <Router>
-        <Header />
-        <SlideShow />
+        <Home />
         {/* <Routes>
           <Route path="/" component={Header} />
           <Route path="/login" component={Login} />

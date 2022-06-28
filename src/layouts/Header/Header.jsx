@@ -11,7 +11,7 @@ const cx = classNames.bind(styles)
 
 const Header = () => {
   return (
-    <div>
+    <div className={cx('fixed-header')}>
       <div className={cx('header-container')}>
         <div className={cx('logo')}>
           <img src={logo} alt="" />
