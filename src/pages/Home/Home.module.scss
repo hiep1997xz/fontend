@@ -11,7 +11,73 @@ h1 {
   margin-bottom: 40px;
 }
 
-.home-cart{
+.home-cart {
   display: flex;
   flex-wrap: wrap;
+}
+
+.boder-bottom {
+  border-bottom: 2px solid #f0942b;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.text-website {
+  text-align: center;
+}
+
+.text-outstanding {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2aa2d4;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.img-outstanding {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.img-1,
+.img-2 {
+  width: 700px;
+  height: 512px;
+}
+
+.img-1 {
+  margin-right: 16px;
+}
+
+.img-3,
+.img-4,
+.img-5,
+.img-6{
+  width: 340px;
+  height: 300px;
+}
+
+.img-4,
+.img-5,
+.img-6{
+  margin-left: 20px;
+}
+
+.text-title-img {
+  font-weight: 500;
+  font-size: 18px;
+  color: #1f1f1f;
+  text-align: center;
+}
+
+.list-img{
+  display: flex;
+}
+
+.text-outstanding-client{
+  font-weight: 700;
+  font-size: 20px;
+  color: #2aa2d4;
+  text-align: center;
+  margin-top: 90px;
 }
