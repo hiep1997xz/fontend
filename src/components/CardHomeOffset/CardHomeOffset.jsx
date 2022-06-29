@@ -7,7 +7,6 @@ import SelectCard from '../../assets/SelectCard.svg'
 const cx = classNames.bind(styles)
 
 const CardHomeOffset = () => {
-  console.log(dataCartHome)
   return (
     <>
       {dataCartHome.map((card, index) => {
