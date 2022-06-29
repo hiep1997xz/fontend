@@ -7,6 +7,7 @@ import Cacrousel from '../../layouts/Cacrousel/Cacrousel'
 import Footer from '../../layouts/Footer/Footer'
 import Header from '../../layouts/Header/Header'
 import SlideShow from '../../layouts/Slides/SlideShow'
+import SwiperSlider from '../../layouts/SwiperSlider/SwiperSlider'
 import styles from './Home.module.scss'
 
 const cx = classNames.bind(styles)
@@ -110,6 +111,7 @@ const Home = () => {
         <div className={cx('boder-bottom')}></div>
         <div>
           <h1>BLOG</h1>
+          {/* <SwiperSlider /> */}
         </div>
       </div>
       <div className={cx('request')}>
