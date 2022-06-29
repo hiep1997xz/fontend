@@ -4,6 +4,7 @@ import classNames from 'classnames/bind'
 import CardHome from '../../components/CardHome/CardHome'
 import CardHomeOffset from '../../components/CardHomeOffset/CardHomeOffset'
 import Cacrousel from '../../layouts/Cacrousel/Cacrousel'
+import Footer from '../../layouts/Footer/Footer'
 import Header from '../../layouts/Header/Header'
 import SlideShow from '../../layouts/Slides/SlideShow'
 import styles from './Home.module.scss'
@@ -137,6 +138,7 @@ const Home = () => {
           <Button className={cx('btn-send')}>Gửi</Button>
         </p>
       </div>
+      <Footer />
     </>
   )
 }
