@@ -1,6 +1,7 @@
 import classNames from 'classnames/bind'
 import CardHome from '../../components/CardHome/CardHome'
 import CardHomeOffset from '../../components/CardHomeOffset/CardHomeOffset'
+import Cacrousel from '../../layouts/Cacrousel/Cacrousel'
 import Header from '../../layouts/Header/Header'
 import SlideShow from '../../layouts/Slides/SlideShow'
 import styles from './Home.module.scss'
@@ -84,7 +85,9 @@ const Home = () => {
                   alt=""
                   className={cx('img-5')}
                 />
-                <p className={cx('text-title-img')}>Catologue, tờ rơi, tờ gấp</p>
+                <p className={cx('text-title-img')}>
+                  Catologue, tờ rơi, tờ gấp
+                </p>
               </div>
               <div>
                 <img
@@ -95,9 +98,12 @@ const Home = () => {
                 <p className={cx('text-title-img')}>Thiệp mời, thiệp cưới</p>
               </div>
             </div>
-            <h1 className={cx('text-outstanding-client')}>ĐÁNH GIÁ PHẢN HỒI CỦA KHÁCH HÀNG</h1>
+            <h1 className={cx('text-outstanding-client')}>
+              ĐÁNH GIÁ PHẢN HỒI CỦA KHÁCH HÀNG
+            </h1>
           </div>
         </div>
+        <Cacrousel />
         <div className={cx('boder-bottom')}></div>
       </div>
     </>
