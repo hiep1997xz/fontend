@@ -17,3 +17,19 @@ code {
   margin: 0;
   box-sizing: border-box;
 }
+
+.text__center{
+  text-align: center;
+}
+
+.marginTop20px {
+  margin-top: 20px;
+}
+
+.marginTop10px{
+  margin-top: 10px;
+}
+
+.d-flex{
+  display: flex;
+}
