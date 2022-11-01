@@ -103,7 +103,7 @@ const Register = () => {
         <div className={cx('account__login')}>
           <span>
             Bạn đã có tài khoản?{' '}
-            <Link to="/register" className={cx('text__register')}>
+            <Link to="/login" className={cx('text__register')}>
               <span>Đăng nhập ngay</span>
             </Link>
           </span>
