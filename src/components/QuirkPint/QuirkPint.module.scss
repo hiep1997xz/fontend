@@ -1,0 +1,192 @@
+.layout__quirkprint {
+  display: flex;
+  justify-content: space-between;
+}
+
+.decan {
+  width: 800px;
+  height: 560px;
+  background: #066f10;
+
+  .decan__title {
+    width: 600px;
+    height: 469px;
+    background: #ddeae1;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+  }
+}
+
+.decan__title_text{
+  font-size: 22px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.color__title{
+  color: #2AA2D4;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.text_desc{
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 20px;
+}
+
+.text_desc p span{
+  font-weight: 600;
+}
+
+
+.decan_layout {
+  width: 800px;
+  height: 560px;
+  margin-left: 30px;
+  .decan_layout_one,
+  .decan_layout_two,
+  .decan_layout_three,
+  .decan_layout_four{
+    width: 330px;
+    height: 265px;
+    background: #D9D9D9;
+  }
+  .decan_layout_one{
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .decan_layout_three{
+    margin-right: 30px;
+  }
+}
+
+.group__btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  .see__details{
+    width: 220px;
+    height: 60px;
+    border: 2px solid #2AA2D4;
+    border-radius: 10px;
+    background: white;
+    color: #2AA2D4;
+    font-size: 18px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .get__price{
+    width: 220px;
+    height: 60px;
+    background: #2AA2D4;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+// catalogue
+.layout__catalogue{
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalogue {
+  width: 800px;
+  height: 560px;
+  background: #B62248;
+
+  .decan__title {
+    width: 600px;
+    height: 469px;
+    background: #F5E0E5;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+  }
+}
+
+.text_desc_cata{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.text_desc_cata p span{
+  font-weight: 600;
+}
+
+//InvitationCard
+.layout__invitationCard{
+  display: flex;
+  justify-content: space-between;
+}
+
+.invitationCard {
+  width: 800px;
+  height: 560px;
+  background: #229FB4;
+
+  .decan__title {
+    width: 600px;
+    height: 469px;
+    background: #F5E0E5;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+  }
+}
+
+//vouchers
+.layout__vouchers{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vouchers {
+  width: 800px;
+  height: 560px;
+  background: #BFBC06;
+
+  .decan__title {
+    width: 600px;
+    height: 469px;
+    background: #F6F6DC;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+  }
+}
+
+// billings
+.layout__billings{
+  display: flex;
+  justify-content: space-between;
+}
+
+.billings {
+  width: 800px;
+  height: 560px;
+  background: #364D6A;
+
+  .decan__title {
+    width: 600px;
+    height: 469px;
+    background: #E3E6EA;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+  }
+}
