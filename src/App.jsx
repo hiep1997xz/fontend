@@ -4,6 +4,7 @@ import Login from './pages/Login/Login'
 import QuanlityQuickPrint from './pages/QuanlityQuickPrint'
 import Register from './pages/Register/Register'
 import './index.css'
+import InOffset from './pages/InOffset'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/quanlity-quick-print" element={<QuanlityQuickPrint />} />
+          <Route path="/in-offset" element={<InOffset />} />
         </Routes>
       </BrowserRouter>
     </>

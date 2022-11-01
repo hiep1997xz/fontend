@@ -1,0 +1,96 @@
+.layout__paper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paper {
+  width: 700px;
+  height: 576px;
+  margin-top: -5px;
+}
+
+.decan_layout {
+  width: 800px;
+  height: 560px;
+  margin-left: 30px;
+  .decan_layout_one,
+  .decan_layout_two,
+  .decan_layout_three,
+  .decan_layout_four{
+    width: 330px;
+    height: 265px;
+    background: #D9D9D9;
+  }
+  .decan_layout_one{
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .decan_layout_three{
+    margin-right: 30px;
+  }
+}
+
+.group__btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  .see__details{
+    width: 220px;
+    height: 60px;
+    border: 2px solid #2AA2D4;
+    border-radius: 10px;
+    background: white;
+    color: #2AA2D4;
+    font-size: 18px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .get__price{
+    width: 220px;
+    height: 60px;
+    background: #2AA2D4;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+// MidAutumn
+.layout__midAutumn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.midAutumn {
+  width: 700px;
+  height: 568px;
+}
+
+//vouchers
+.layout__vouchers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vouchers {
+  width: 700px;
+  height: 568px;
+}
+
+// billings
+.layout__book {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book {
+  width: 700px;
+  height: 568px;
+}
