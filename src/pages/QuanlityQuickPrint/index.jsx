@@ -12,8 +12,8 @@ import Header from '../../layouts/Header/Header'
 import SlideShow from '../../layouts/Slides/SlideShow'
 import styles from './QuanlityQuickPrint.module.scss'
 
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 
 const cx = classNames.bind(styles)
 
@@ -76,11 +76,16 @@ const QuanlityQuickPrint = () => {
             mặt hàng trên chất liệu giấy
           </h1>
 
-          <Slider ref={sliderRef} {...settings}>
-            <div className={cx('d-flex')}>
-              <BesidesQuickPrint />
+          <div>
+            <div className={cx('featured__order')}>
+              Đơn hàng nổi bật
             </div>
-          </Slider>
+            <Slider ref={sliderRef} {...settings}>
+              <div className={cx('d-flex')}>
+                <BesidesQuickPrint />
+              </div>
+            </Slider>
+          </div>
         </div>
       </div>
 
