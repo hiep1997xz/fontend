@@ -6,17 +6,17 @@ import fb from '../../assets/Login/fb.png'
 import gg from '../../assets/Login/gg.png'
 import logo from '../../assets/Login/logo.png'
 import tw from '../../assets/Login/tw.png'
-import styles from './Login.module.scss'
+import styles from './Register.module.scss'
 
 const cx = classNames.bind(styles)
 
-const Login = () => {
+const Register = () => {
   return (
-    <div className={cx('login-container')}>
+    <div className={cx('register__container')}>
       <div className={cx('group__login')}>
         <img src={logo} alt="" />
         <div className={cx('title__login')}>
-          <span>Đăng nhập hệ thống</span>
+          <span>Đăng kí tài khoản</span>
         </div>
       </div>
       <div className={cx('form__login')}>
@@ -24,7 +24,7 @@ const Login = () => {
           <Form.Item
             label={
               <>
-                Tên đăng nhập{' '}
+                Email
                 <span span className={cx('start__note')}>
                   *
                 </span>
@@ -34,6 +34,21 @@ const Login = () => {
             rules={[
               { required: true, message: 'Please input your username!' },
             ]}>
+            <Input className={cx('input')} />
+          </Form.Item>
+
+          <Form.Item
+            label={
+              <>
+                Tên đăng nhập
+                <span span className={cx('start__note')}>
+                  *
+                </span>
+              </>
+            }
+            name="username"
+            rules={[{ required: true, message: 'Please input your username!' }]}
+            className={cx('mt20px')}>
             <Input className={cx('input')} />
           </Form.Item>
 
@@ -50,13 +65,29 @@ const Login = () => {
           </Form.Item>
 
           <Form.Item
+            label={
+              <>
+                Nhập lại mật khẩu <span className={cx('start__note')}>*</span>
+              </>
+            }
+            name="password"
+            rules={[{ required: true, message: 'Please input your password!' }]}
+            className={cx('form__password')}>
+            <Input type="password" className={cx('input')} />
+          </Form.Item>
+
+          <Form.Item
             name="remember"
             valuePropName="checked"
-            wrapperCol={{ offset: 8, span: 16 }}
-            >
+            wrapperCol={{ offset: 8, span: 16 }}>
             <div className={cx('form__checkbox')}>
-              <Checkbox>Nhớ mật khẩu</Checkbox>
-              <span className={cx('forgot_password')}>Quên mật khẩu?</span>
+              <Checkbox>
+                Tôi đồng ý với{' '}
+                <Link to='#' className={cx('forgot_password')}>
+                  điều khoản và chính sách
+                </Link>{' '}
+                của In Trần Gia
+              </Checkbox>
             </div>
           </Form.Item>
 
@@ -65,23 +96,15 @@ const Login = () => {
               type="primary"
               htmlType="submit"
               className={cx('btn__login')}>
-              Đăng nhập
+             Đăng kí tài khoản
             </Button>
           </div>
         </Form>
-        <div className={cx('group__sso')}>
-          <p>Đăng nhập bằng</p>
-          <div>
-            <img src={gg} alt="" />
-            <img src={fb} alt="" />
-            <img src={tw} alt="" />
-          </div>
-        </div>
         <div className={cx('account__login')}>
           <span>
-            Bạn chưa có tài khoản?{' '}
+            Bạn đã có tài khoản?{' '}
             <Link to="/register" className={cx('text__register')}>
-              <span>Đăng kí ngay</span>
+              <span>Đăng nhập ngay</span>
             </Link>
           </span>
         </div>
@@ -90,4 +113,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Register

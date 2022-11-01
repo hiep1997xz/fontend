@@ -1,0 +1,107 @@
+.register__container{
+  margin: 98px auto;
+  width: 500px;
+  height: 690px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px #c5c5c5;
+  align-items: center;
+
+  .group__login{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .title__login{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .form__login{
+    padding:  26px 44px 0px 44px;
+    
+  }
+
+  :global{
+    .ant-form-item-explain-error{
+      color: red;
+      font-size: 14px;
+    }
+    .ant-checkbox{
+      margin-right: 4px;
+    }
+  }
+  
+  .start__note{
+    color: #2AA2D4;
+  }
+
+  .input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d0d0d0 !important;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 4px;
+    padding: 10px;
+  }
+
+  .form__password, 
+  .form__checkbox,
+  .btn__login {
+    margin-top: 20px;
+  }
+
+  .form__checkbox {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .forgot_password {
+    color: #2AA2D4;
+    margin-left: 4px;
+    text-decoration: none !important;
+  }
+
+  .checkbox{
+    margin-right: 20px;
+  }
+
+  .btn__login{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #2AA2D4;
+  }
+
+  .btn__login span {
+    color:white;
+  }
+  
+  .group__sso{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .group__sso p {
+    font-size: 20px;
+    color: #2AA2D4;
+  }
+
+  .account__login{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .text__register{
+    color: #2AA2D4;
+    text-decoration: none !important;
+  }
+
+  .mt20px{
+    margin-top: 20px;
+  }
+}
+
