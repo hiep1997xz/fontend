@@ -20,8 +20,13 @@ const Header = () => {
           <Search />
         </div>
         <div className={cx('header-login')}>
+          <img
+            className={cx('logo__avatar')}
+            src="https://ephoto360.com/uploads/worigin/2018/09/07/avatar-avt5b92469f182d2_526929fdb13fe28ac68489644991cd80.jpg"
+            alt=""
+          />
           <Link to="/login" className={cx('login-register')}>
-            <span className={cx('text-header')}>Login / Sign up</span>
+            <span className={cx('text-header')}>Login</span>
             <img src={LoginRegisterIcon} alt="" />
           </Link>
           <span className={cx('seperate-header')}></span>
