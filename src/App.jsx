@@ -7,6 +7,7 @@ import './index.css'
 import InOffset from './pages/InOffset'
 import Decal from './pages/Decal'
 import Details from './pages/Details'
+import Webside from './pages/Webside'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/in-offset" element={<InOffset />} />
           <Route path="/decal" element={<Decal />} />
           <Route path="/details" element={<Details />} />
+          <Route path="/webside" element={<Webside />} />
         </Routes>
       </BrowserRouter>
     </>
