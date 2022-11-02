@@ -13,9 +13,9 @@ const Header = () => {
   return (
     <div className={cx('fixed-header')}>
       <div className={cx('header-container')}>
-        <div className={cx('logo')}>
+        <Link to="/" className={cx('logo')}>
           <img src={logo} alt="" />
-        </div>
+        </Link>
         <div>
           <Search />
         </div>
