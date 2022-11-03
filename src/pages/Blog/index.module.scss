@@ -1,0 +1,143 @@
+.blog__container{
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
+.group__blog{
+  display: flex;
+
+  .group__bog__list{
+    flex: 3;
+  }
+
+  .bog__list{
+    display: flex;
+  }
+
+  .bog__search{
+    flex: 1;
+  }
+
+  .group__content{
+    margin-left: 30px;
+
+    .text{
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .group__view{
+      display: flex;
+      margin-left: -20px;
+      margin-bottom: 20px;
+
+      .group__icon{
+        margin-left: 20px;
+        font-size: 16px;
+      }
+
+      .group__icon p{
+        margin-left: 4px;
+        color: #5F5757;
+      }
+    }
+
+    .text__desc{
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .group__icon{
+    display: flex;
+  }
+
+  .btn{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background: #2AA2D4;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .border__bottom{
+    width: 100%;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+
+  .bog__search{
+    margin-left: 20px;
+    .title__search{
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .group__search{
+      display: flex;
+      width: 100%;
+      height: 40px;
+      border: 1px solid #CCCCCC;
+      margin-bottom: 30px;
+    }
+
+    .group__search img{
+      width: 20px;
+      height: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .group__search input{
+      width: 100%;
+      margin-left: 10px;
+      border: none;
+    }
+
+    .btn__search{
+      width: 100%;
+      height: 50px;
+      background: #2AA2D4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 50px;
+    }
+
+    .text_new{
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .border_bottom_search{
+      width: 150px;
+      height: 2px;
+      background: #2AA2D4;
+      margin-bottom: 30px;
+    }
+
+    .group__img{
+      display: flex;
+      margin-bottom: 20px;
+
+      .width__height{
+        width: 77px;
+        height: 77px;
+      }
+    }
+
+    .group__img p{
+      font-size: 18px;
+      font-weight: 600;
+      margin-left: 20px;
+    }
+
+
+  }
+}
+
