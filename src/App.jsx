@@ -9,6 +9,7 @@ import Decal from './pages/Decal'
 import Details from './pages/Details'
 import Webside from './pages/Webside'
 import Blog from './pages/Blog'
+import About from './pages/About'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/details" element={<Details />} />
           <Route path="/webside" element={<Webside />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>
