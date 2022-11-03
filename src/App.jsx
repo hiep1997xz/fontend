@@ -8,6 +8,7 @@ import InOffset from './pages/InOffset'
 import Decal from './pages/Decal'
 import Details from './pages/Details'
 import Webside from './pages/Webside'
+import Blog from './pages/Blog'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/decal" element={<Decal />} />
           <Route path="/details" element={<Details />} />
           <Route path="/webside" element={<Webside />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
     </>
