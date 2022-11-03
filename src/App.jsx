@@ -11,6 +11,7 @@ import Webside from './pages/Webside'
 import Blog from './pages/Blog'
 import About from './pages/About'
 import Support from './pages/Support'
+import NewspaperBlog from './pages/NewspaperBlog'
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/newspaper-blog" element={<NewspaperBlog />} />
+          {/* NewspaperBlog */}
         </Routes>
       </BrowserRouter>
     </>
